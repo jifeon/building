@@ -21,7 +21,7 @@ module.exports = {
     },
 
     http : {
-      port : 3001,
+      port : 3000,
       root_folders : {
         WebPlayer : 'WebPlayer'
       },
