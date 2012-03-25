@@ -9,6 +9,7 @@ module.exports = {
   },
 
   preload_components : [ 'log_router' ],
+  cache_views        : true,
 
   components : {
     log_router          : {
@@ -23,7 +24,8 @@ module.exports = {
     http : {
       port : 3000,
       root_folders : {
-        WebPlayer : 'WebPlayer'
+        WebPlayer : 'WebPlayer',
+        ai_files  : 'ai_files'
       },
       basic_auth : {
         message : 'Who are you?',

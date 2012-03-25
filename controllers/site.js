@@ -6,5 +6,5 @@ function SiteController( params ) {
 
 
 SiteController.prototype.index = function( params, client ) {
-  this.send_response( 'WebPlayer', client );
+  this.send_response( 'ai', client );
 };
