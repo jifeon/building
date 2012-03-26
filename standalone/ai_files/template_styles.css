@@ -117,7 +117,7 @@ body
 {
 	top: 0;
 	height: 551px;
-	background: url(/ai_files/site_top_bg.jpg) center top no-repeat;
+	background: url(site_top_bg.jpg) center top no-repeat;
 }
 
 .container_bottom_bg

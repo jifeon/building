@@ -24,8 +24,8 @@ module.exports = {
     http : {
       port : 3000,
       root_folders : {
-        WebPlayer : 'WebPlayer',
-        ai_files  : 'ai_files'
+        WebPlayer : 'standalone/WebPlayer',
+        ai_files  : 'standalone/ai_files'
       },
       basic_auth : {
         message : 'Who are you?',
