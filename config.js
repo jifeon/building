@@ -4,7 +4,10 @@ module.exports = {
 
   router : {
     rules : {
-      '/' : 'site.index'
+      '/'             : 'site.index',
+      'house'         : 'site.house',
+      'first_person'  : 'site.first_person',
+      'hospital'      : 'site.hospital'
     }
   },
 
@@ -24,14 +27,7 @@ module.exports = {
     http : {
       port : 3000,
       root_folders : {
-        WebPlayer : 'standalone/WebPlayer',
-        ai_files  : 'standalone/ai_files'
-      },
-      basic_auth : {
-        message : 'Who are you?',
-        users   : {
-          'admin'   : 'LJUji9'
-        }
+        WebPlayer : 'standalone/WebPlayer'
       }
     }
   }

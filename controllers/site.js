@@ -6,5 +6,26 @@ function SiteController( params ) {
 
 
 SiteController.prototype.index = function( params, client ) {
-  this.send_response( 'ai', client );
+  this.send_response( 'WebPlayer', client, {
+    obj_name : 'building'
+  } );
+};
+
+
+SiteController.prototype.house = function( params, client ) {
+  this.send_response( 'WebPlayer', client, {
+    obj_name : 'house'
+  } );
+};
+
+SiteController.prototype.first_person = function( params, client ) {
+  this.send_response( 'WebPlayer', client, {
+    obj_name : 'first_person'
+  } );
+};
+
+SiteController.prototype.hospital = function( params, client ) {
+  this.send_response( 'WebPlayer', client, {
+    obj_name : 'hospital'
+  } );
 };
