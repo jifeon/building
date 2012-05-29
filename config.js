@@ -7,7 +7,8 @@ module.exports = {
       '/'             : 'site.index',
       'house'         : 'site.house',
       'first_person'  : 'site.first_person',
-      'hospital'      : 'site.hospital'
+      'hospital'      : 'site.hospital',
+      'admiral'       : 'site.admiral'
     }
   },
 

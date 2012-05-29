@@ -29,3 +29,9 @@ SiteController.prototype.hospital = function( params, client ) {
     obj_name : 'hospital'
   } );
 };
+
+SiteController.prototype.admiral = function( params, client ) {
+  this.send_response( 'WebPlayer', client, {
+    obj_name : 'admiral'
+  } );
+};
