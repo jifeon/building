@@ -35,3 +35,9 @@ SiteController.prototype.admiral = function( params, client ) {
     obj_name : 'admiral'
   } );
 };
+
+SiteController.prototype.lodma = function( params, client ) {
+  this.send_response( 'WebPlayer', client, {
+    obj_name : 'lodma'
+  } );
+};
