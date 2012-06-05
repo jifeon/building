@@ -12,3 +12,10 @@ SiteController.prototype.before_action = function( action, params, client ){
 
   return false;
 };
+
+SiteController.prototype.admiral = function(){}
+SiteController.prototype.house = function(){}
+SiteController.prototype.lodma = function(){}
+SiteController.prototype.hospital = function(){}
+SiteController.prototype.first_person = function(){}
+SiteController.prototype.building = function(){}
