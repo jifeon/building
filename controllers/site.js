@@ -5,39 +5,10 @@ function SiteController( params ) {
 }
 
 
-SiteController.prototype.index = function( params, client ) {
+SiteController.prototype.before_action = function( action, params, client ){
   this.send_response( 'WebPlayer', client, {
-    obj_name : 'building'
+    obj_name : action
   } );
-};
 
-
-SiteController.prototype.house = function( params, client ) {
-  this.send_response( 'WebPlayer', client, {
-    obj_name : 'house'
-  } );
-};
-
-SiteController.prototype.first_person = function( params, client ) {
-  this.send_response( 'WebPlayer', client, {
-    obj_name : 'first_person'
-  } );
-};
-
-SiteController.prototype.hospital = function( params, client ) {
-  this.send_response( 'WebPlayer', client, {
-    obj_name : 'hospital'
-  } );
-};
-
-SiteController.prototype.admiral = function( params, client ) {
-  this.send_response( 'WebPlayer', client, {
-    obj_name : 'admiral'
-  } );
-};
-
-SiteController.prototype.lodma = function( params, client ) {
-  this.send_response( 'WebPlayer', client, {
-    obj_name : 'lodma'
-  } );
+  return false;
 };

@@ -4,12 +4,13 @@ module.exports = {
 
   router : {
     rules : {
-      '/'             : 'site.index',
+      '/'             : 'site.lodma',
+      'admiral'       : 'site.admiral',
+      'building'      : 'site.building',
       'house'         : 'site.house',
       'first_person'  : 'site.first_person',
       'hospital'      : 'site.hospital',
-      'lodma'         : 'site.lodma',
-      'admiral'       : 'site.admiral'
+      'lodma'         : 'site.lodma'
     }
   },
 
