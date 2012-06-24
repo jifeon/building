@@ -10,7 +10,9 @@ module.exports = {
       'house'         : 'site.house',
       'first_person'  : 'site.first_person',
       'hospital'      : 'site.hospital',
-      'lodma'         : 'site.lodma'
+      'lodma'         : 'site.lodma',
+      'ember'         : 'site.ember',
+      'remote'        : 'remote.show'
     }
   },
 

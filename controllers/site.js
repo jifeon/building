@@ -19,3 +19,4 @@ SiteController.prototype.lodma = function(){}
 SiteController.prototype.hospital = function(){}
 SiteController.prototype.first_person = function(){}
 SiteController.prototype.building = function(){}
+SiteController.prototype.ember = function(){}
