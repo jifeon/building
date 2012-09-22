@@ -5,10 +5,10 @@ function SiteController( params ) {
 }
 
 
-SiteController.prototype.before_action = function( action, params, client ){
-  this.send_response( 'WebPlayer', client, {
+SiteController.prototype.before_action = function( action, response, request ){
+  response.view_name( 'WebPlayer').send({
     obj_name : action
-  } );
+  });
 
   return false;
 };
